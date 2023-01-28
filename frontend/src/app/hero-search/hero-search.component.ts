@@ -1,13 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-
 import { Observable, Subject } from 'rxjs';
-
+import { Hero } from '../hero';
+import { HeroService } from '../hero.service';
 import {
    debounceTime, distinctUntilChanged, switchMap
  } from 'rxjs/operators';
-
-import { Hero } from '../hero';
-import { HeroService } from '../hero.service';
 
 @Component({
   selector: 'app-hero-search',
@@ -27,6 +24,7 @@ export class HeroSearchComponent implements OnInit {
 
   ngOnInit(): void {
     this.heroes$ = this.searchTerms.pipe(
+      
       // wait 300ms after each keystroke before considering the term
       debounceTime(300),
 
