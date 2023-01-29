@@ -49,7 +49,7 @@ The application has many of the features that you'd expect to find in any data-d
 
 ## ✨ Screenshots
 ### Dashboard
-![Dashboard screenshot](https://github.com/pavlogook/tour-of-heroes/blob/main/images/dashboard.png)
+![Dashboard screenshot](images/dashboard.png)
 ---
 ### Heroes
-![Heroes screenshot](https://github.com/pavlogook/tour-of-heroes/blob/main/images/heroes.png)
+![Heroes screenshot](images/heroes.png)
